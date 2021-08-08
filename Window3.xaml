@@ -1,0 +1,16 @@
+﻿<Window x:Class="LabWorkQ2.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabWorkQ2"
+        mc:Ignorable="d"
+        Title="BookList" Height="450" Width="400">
+    <Grid>
+        <ListBox x:Name="bookList" HorizontalAlignment="Left" Height="200" Margin="40,40,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="addButton" Content="Add Another Book" HorizontalAlignment="Left" Margin="222,54,0,0" VerticalAlignment="Top" Width="113" Height="26" Click="addButton_Click"/>
+        <Button x:Name="deleteButton" Content="Delete" HorizontalAlignment="Left" Margin="222,134,0,0" VerticalAlignment="Top" Width="113" Height="26" Click="deleteButton_Click"/>
+        <Button x:Name="closeButton" Content="Close" HorizontalAlignment="Left" Margin="222,214,0,0" VerticalAlignment="Top" Width="113" Height="26" Click="closeButton_Click"/>
+
+    </Grid>
+</Window>
